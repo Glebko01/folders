@@ -1,0 +1,180 @@
+body{
+	background-color: #4D4A49;
+	
+
+}
+nav {
+			   
+background-color: #E64A19;
+position: fixed;
+top: 0px;
+left: 0px;
+z-index: 2;
+width: 100%;
+
+
+
+}
+			
+nav ul {
+padding:0;
+margin:0;
+list-style: none;
+position: relative;
+
+			  
+}
+		
+nav ul li {
+margin: 0px -7px 0 0;
+display:inline-block;
+background-color: #E64A19;
+
+
+}
+	
+		
+nav a {
+ display:block;
+ padding:0 10px;
+ color:#FFF;
+ font-size:20px;
+ line-height: 60px;
+ text-decoration:none
+
+}
+			
+		
+nav a:hover {
+background-color: #000000;
+		
+}
+nav ul ul {
+display: none;
+position: absolute;
+top: 100%;
+}
+	
+			
+nav ul li:hover > ul {
+display:inherit;
+
+}
+			
+			
+nav ul ul li {
+ min-width:170px;
+ float:none;
+ display:list-item;
+ position: relative;
+}
+.text1{
+    position: absolute;
+	color: #e55319;
+	top: 202px;
+	left: 723px;
+	font-size: 70px;
+	font-family: 'Russo One', sans-serif;
+}
+.block{
+	background-color: #737373;
+	height: 600px;
+	width: 130px;
+	margin-top: 120px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.bettwen{
+	position: absolute;
+	background-image: url(https://cs8.pikabu.ru/post_img/big/2017/08/07/12/1502137604118189937.jpg);
+	width: 1260px;
+    height: 100px;
+    top: 400px;
+    z-index: -1;
+}
+
+.csgo{
+	top: 200px;
+	left: 250px;
+	position: absolute;
+
+}
+.pubg{
+     top: 400px;
+     left: 800px;
+     position: absolute;
+}
+.fort{
+	position: absolute;
+     top: 550px;
+     left: 300px;
+}    
+.img2{
+	position: absolute;
+	top: 220px;
+	left: 30px;
+}
+.img3{
+	position: absolute;
+	top: 320px;
+	left: 30px;
+
+}
+.img4{
+	position: absolute;
+	top: 420px;
+	left: 30px;
+}
+.img5{
+	position: absolute;
+	top: 520px;
+	left: 30px;
+}
+.img6{
+	position: absolute;
+	top: 620px;
+	left: 30px;
+}
+
+.modal {
+	position: absolute;
+	width: 600px;
+	height: 400px;
+	z-index: 1;
+	color: #e55319;
+	display: none;
+	left: 380px;
+	top: 300px;
+	background-color: grey;
+	border-radius: 10px;
+
+
+}
+
+.modal iframe {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+#myBtn{
+	position: absolute;
+	background-color: #AA9494;
+	border-radius: 4px;
+	border:none;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+	 cursor: pointer;
+	 left: 839px;
+	 top: 366px;
+	 padding: 12px;
+	 font-size: 18px;
+
+	
+
+}
+.close{
+
+	margin-left: -50px;
+	height: 32px;
+	width: 32px;
+	
+}
+
